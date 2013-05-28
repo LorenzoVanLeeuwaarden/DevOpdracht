@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/FilmNaam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Titel"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/filmCover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="6dp"
+        android:minHeight="180dp"
+        android:minWidth="150dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/beschrijvinglabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Beschrijving"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/FilmBeschrijving"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.36"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/FilmJaar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jaar:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/FilmIMDB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:text="IMDB cijfer:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/FilmYoutube"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/ytlogo" />
+
+</LinearLayout>
